@@ -1,0 +1,963 @@
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:websockets.client:= connection is CONNECTING
+DEBUG:websockets.client:> GET / HTTP/1.1
+DEBUG:websockets.client:> Host: api.mainnet-beta.solana.com
+DEBUG:websockets.client:> Upgrade: websocket
+DEBUG:websockets.client:> Connection: Upgrade
+DEBUG:websockets.client:> Sec-WebSocket-Key: 6Hxgpa3u+I+9q+/mgMiB2A==
+DEBUG:websockets.client:> Sec-WebSocket-Version: 13
+DEBUG:websockets.client:> Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+DEBUG:websockets.client:> User-Agent: Python/3.10 websockets/11.0.3
+DEBUG:websockets.client:< HTTP/1.1 101 Switching Protocols
+DEBUG:websockets.client:< upgrade: websocket
+DEBUG:websockets.client:< connection: Upgrade
+DEBUG:websockets.client:< sec-websocket-accept: tkzHcNGMKj38yRO9OH/udfRi2r4=
+DEBUG:websockets.client:< x-rpc-node: ams60
+DEBUG:websockets.client:< x-ratelimit-tier: free
+DEBUG:websockets.client:< x-ratelimit-method-limit: 40
+DEBUG:websockets.client:< x-ratelimit-method-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-rps-limit: 100
+DEBUG:websockets.client:< x-ratelimit-rps-remaining: 99
+DEBUG:websockets.client:< x-ratelimit-endpoint-limit: unlimited
+DEBUG:websockets.client:< x-ratelimit-endpoint-remaining: -948
+DEBUG:websockets.client:< x-ratelimit-conn-limit: 40
+DEBUG:websockets.client:< x-ratelimit-conn-remaining: 38
+DEBUG:websockets.client:< x-ratelimit-connrate-limit: 40
+DEBUG:websockets.client:< x-ratelimit-connrate-remaining: 38
+DEBUG:websockets.client:< x-ratelimit-pubsub-limit: 5
+DEBUG:websockets.client:< x-ratelimit-pubsub-remaining: 4
+DEBUG:websockets.client:< access-control-allow-origin: backend_traffic
+DEBUG:websockets.client:< access-control-allow-methods: OPTIONS, POST, GET
+DEBUG:websockets.client:< access-control-allow-headers: authorization, *
+DEBUG:websockets.client:< access-control-max-age: 86400
+DEBUG:websockets.client:< allow: OPTIONS, POST, GET
+DEBUG:websockets.client:= connection is OPEN
+DEBUG:websockets.client:> TEXT '{"method":"logsSubscribe","jsonrpc":"2.0","id":...mitment":"finalized"}]}' [149 bytes]
+DEBUG:websockets.client:< TEXT '{"jsonrpc":"2.0","result":3084988,"id":1}' [41 bytes]
+INFO:root:53gy45wcwg6UrGGEJruBkDDdgsbBLgNLSoAVHX5jeJgKbd2KCoNWat6ZhYYbsZV8yibHWmJXwrozx77HRufyYgRC
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714314304, init_pc_amount: 4000000000, init_coin_amount: 95000000000000 }
+INFO:root:i=0
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:websockets.client:= connection is CONNECTING
+DEBUG:websockets.client:> GET / HTTP/1.1
+DEBUG:websockets.client:> Host: api.mainnet-beta.solana.com
+DEBUG:websockets.client:> Upgrade: websocket
+DEBUG:websockets.client:> Connection: Upgrade
+DEBUG:websockets.client:> Sec-WebSocket-Key: fSWbx88k9m+aGhnrGEhVfA==
+DEBUG:websockets.client:> Sec-WebSocket-Version: 13
+DEBUG:websockets.client:> Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+DEBUG:websockets.client:> User-Agent: Python/3.10 websockets/11.0.3
+DEBUG:websockets.client:< HTTP/1.1 101 Switching Protocols
+DEBUG:websockets.client:< upgrade: websocket
+DEBUG:websockets.client:< connection: Upgrade
+DEBUG:websockets.client:< sec-websocket-accept: zpe60GsWD2Cb1ymyGvtjNcGFzl0=
+DEBUG:websockets.client:< x-rpc-node: ams62
+DEBUG:websockets.client:< x-ratelimit-tier: free
+DEBUG:websockets.client:< x-ratelimit-method-limit: 40
+DEBUG:websockets.client:< x-ratelimit-method-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-rps-limit: 100
+DEBUG:websockets.client:< x-ratelimit-rps-remaining: 99
+DEBUG:websockets.client:< x-ratelimit-endpoint-limit: unlimited
+DEBUG:websockets.client:< x-ratelimit-endpoint-remaining: -1280
+DEBUG:websockets.client:< x-ratelimit-conn-limit: 40
+DEBUG:websockets.client:< x-ratelimit-conn-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-connrate-limit: 40
+DEBUG:websockets.client:< x-ratelimit-connrate-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-pubsub-limit: 5
+DEBUG:websockets.client:< x-ratelimit-pubsub-remaining: 5
+DEBUG:websockets.client:< access-control-allow-origin: backend_traffic
+DEBUG:websockets.client:< access-control-allow-methods: OPTIONS, POST, GET
+DEBUG:websockets.client:< access-control-allow-headers: authorization, *
+DEBUG:websockets.client:< access-control-max-age: 86400
+DEBUG:websockets.client:< allow: OPTIONS, POST, GET
+DEBUG:websockets.client:= connection is OPEN
+DEBUG:websockets.client:> TEXT '{"method":"logsSubscribe","jsonrpc":"2.0","id":...mitment":"finalized"}]}' [149 bytes]
+DEBUG:websockets.client:< TEXT '{"jsonrpc":"2.0","result":6232007,"id":1}' [41 bytes]
+INFO:root:4aYA3VeZ58UsFLxM4RQHy47Do2iufRFJAzHUvZwWwHyAkD36HLf494d8TTPcTpFY1hAhZTeQe9vycZ1JZnNCMAof
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714314359, init_pc_amount: 5000000000, init_coin_amount: 92230000000000 }
+INFO:root:i=0
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:websockets.client:= connection is CONNECTING
+DEBUG:websockets.client:> GET / HTTP/1.1
+DEBUG:websockets.client:> Host: api.mainnet-beta.solana.com
+DEBUG:websockets.client:> Upgrade: websocket
+DEBUG:websockets.client:> Connection: Upgrade
+DEBUG:websockets.client:> Sec-WebSocket-Key: WhE1zmFCt5+LXemoUhZaEQ==
+DEBUG:websockets.client:> Sec-WebSocket-Version: 13
+DEBUG:websockets.client:> Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+DEBUG:websockets.client:> User-Agent: Python/3.10 websockets/11.0.3
+DEBUG:websockets.client:< HTTP/1.1 101 Switching Protocols
+DEBUG:websockets.client:< upgrade: websocket
+DEBUG:websockets.client:< connection: Upgrade
+DEBUG:websockets.client:< sec-websocket-accept: bE0SzKxnBGyhzkzaRzrQD4r2ua0=
+DEBUG:websockets.client:< x-rpc-node: ams60
+DEBUG:websockets.client:< x-ratelimit-tier: free
+DEBUG:websockets.client:< x-ratelimit-method-limit: 40
+DEBUG:websockets.client:< x-ratelimit-method-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-rps-limit: 100
+DEBUG:websockets.client:< x-ratelimit-rps-remaining: 99
+DEBUG:websockets.client:< x-ratelimit-endpoint-limit: unlimited
+DEBUG:websockets.client:< x-ratelimit-endpoint-remaining: -540
+DEBUG:websockets.client:< x-ratelimit-conn-limit: 40
+DEBUG:websockets.client:< x-ratelimit-conn-remaining: 38
+DEBUG:websockets.client:< x-ratelimit-connrate-limit: 40
+DEBUG:websockets.client:< x-ratelimit-connrate-remaining: 38
+DEBUG:websockets.client:< x-ratelimit-pubsub-limit: 5
+DEBUG:websockets.client:< x-ratelimit-pubsub-remaining: 4
+DEBUG:websockets.client:< access-control-allow-origin: backend_traffic
+DEBUG:websockets.client:< access-control-allow-methods: OPTIONS, POST, GET
+DEBUG:websockets.client:< access-control-allow-headers: authorization, *
+DEBUG:websockets.client:< access-control-max-age: 86400
+DEBUG:websockets.client:< allow: OPTIONS, POST, GET
+DEBUG:websockets.client:= connection is OPEN
+DEBUG:websockets.client:> TEXT '{"method":"logsSubscribe","jsonrpc":"2.0","id":...mitment":"finalized"}]}' [149 bytes]
+DEBUG:websockets.client:< TEXT '{"jsonrpc":"2.0","result":2139762,"id":1}' [41 bytes]
+DEBUG:websockets.client:< TEXT '{"jsonrpc":"2.0","method":"logsNotification","p...subscription":2139762}}' [2219 bytes]
+DEBUG:websockets.client:< TEXT '{"jsonrpc":"2.0","method":"logsNotification","p...subscription":2139762}}' [2218 bytes]
+DEBUG:websockets.client:< TEXT '{"jsonrpc":"2.0","method":"logsNotification","p...subscription":2139762}}' [943 bytes]
+DEBUG:websockets.client:< TEXT '{"jsonrpc":"2.0","method":"logsNotification","p...subscription":2139762}}' [2220 bytes]
+DEBUG:websockets.client:< TEXT '{"jsonrpc":"2.0","method":"logsNotification","p...subscription":2139762}}' [2583 bytes]
+INFO:root:3y3jtKkvCXn3jE9pKA8NzAm8QzSvUbcvouf9dCDSDRuXsaqVyvp3JDf6AELwmZJTx1cF3sHxwq2iLM8o3E1AbaUc
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714314502, init_pc_amount: 4000000000, init_coin_amount: 1000000000000000000 }
+INFO:root:i=0
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x7f6698edf8b0>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: E2eQto4Zh3zFe6kUAEpDZXENNdXtgz5MC7bb5VY9bfxa, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: GgEAsVMcS1SFa6nNXTHz1sQ346zRdzMFgQWcfLr8HvML
+INFO:root:r8jFUqaJDtR71mhjyvDfj3Kt6wA78qHFtM1ndHf6pbRuw5DMTQh4wS2j2JRjuUaQwQKiDH1z4B53SguVrg8WhbZ
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714314450, init_pc_amount: 10000000000, init_coin_amount: 960000000000000000 }
+INFO:root:i=1
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+ERROR:root:
+Traceback (most recent call last):
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/exceptions.py", line 43, in argument_decorator
+    return func(*args, **kwargs)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/providers/http.py", line 48, in make_request
+    raw = self.make_request_unparsed(body)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/providers/http.py", line 55, in make_request_unparsed
+    return _after_request_unparsed(raw_response)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/providers/core.py", line 136, in _after_request_unparsed
+    raw_response.raise_for_status()
+  File "/home/codespace/.local/lib/python3.10/site-packages/httpx/_models.py", line 761, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.mainnet-beta.solana.com'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/workspaces/Decentralized-Exchange-Trading-Scripts/Solana/NewlyCreatedPairs.py", line 57, in main
+    get_tokens(signature, RaydiumLPV4)
+  File "/workspaces/Decentralized-Exchange-Trading-Scripts/Solana/NewlyCreatedPairs.py", line 127, in get_tokens
+    transaction = solana_client.get_transaction(
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/api.py", line 372, in get_transaction
+    return self._provider.make_request(body, GetTransactionResp)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/exceptions.py", line 45, in argument_decorator
+    raise internal_exception_cls(exc, func, *args, **kwargs) from exc
+solana.exceptions.SolanaRpcException
+INFO:root:sleep for 5 seconds and try again
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:websockets.client:= connection is CONNECTING
+DEBUG:websockets.client:> GET / HTTP/1.1
+DEBUG:websockets.client:> Host: api.mainnet-beta.solana.com
+DEBUG:websockets.client:> Upgrade: websocket
+DEBUG:websockets.client:> Connection: Upgrade
+DEBUG:websockets.client:> Sec-WebSocket-Key: SXClC9+x8mtneGzXo4YkWQ==
+DEBUG:websockets.client:> Sec-WebSocket-Version: 13
+DEBUG:websockets.client:> Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+DEBUG:websockets.client:> User-Agent: Python/3.10 websockets/11.0.3
+DEBUG:websockets.client:< HTTP/1.1 101 Switching Protocols
+DEBUG:websockets.client:< upgrade: websocket
+DEBUG:websockets.client:< connection: Upgrade
+DEBUG:websockets.client:< sec-websocket-accept: dSil3zYukIp9yNZE/9IKWeJcaGU=
+DEBUG:websockets.client:< x-rpc-node: ams62
+DEBUG:websockets.client:< x-ratelimit-tier: free
+DEBUG:websockets.client:< x-ratelimit-method-limit: 40
+DEBUG:websockets.client:< x-ratelimit-method-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-rps-limit: 100
+DEBUG:websockets.client:< x-ratelimit-rps-remaining: 95
+DEBUG:websockets.client:< x-ratelimit-endpoint-limit: unlimited
+DEBUG:websockets.client:< x-ratelimit-endpoint-remaining: -726
+DEBUG:websockets.client:< x-ratelimit-conn-limit: 40
+DEBUG:websockets.client:< x-ratelimit-conn-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-connrate-limit: 40
+DEBUG:websockets.client:< x-ratelimit-connrate-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-pubsub-limit: 5
+DEBUG:websockets.client:< x-ratelimit-pubsub-remaining: 5
+DEBUG:websockets.client:< access-control-allow-origin: backend_traffic
+DEBUG:websockets.client:< access-control-allow-methods: OPTIONS, POST, GET
+DEBUG:websockets.client:< access-control-allow-headers: authorization, *
+DEBUG:websockets.client:< access-control-max-age: 86400
+DEBUG:websockets.client:< allow: OPTIONS, POST, GET
+DEBUG:websockets.client:= connection is OPEN
+DEBUG:websockets.client:> TEXT '{"method":"logsSubscribe","jsonrpc":"2.0","id":...mitment":"finalized"}]}' [149 bytes]
+DEBUG:websockets.client:< TEXT '{"jsonrpc":"2.0","result":6232225,"id":1}' [41 bytes]
+INFO:root:5QPe2za1Fm8cMLwNRadAQxixVsfns4FykqTm6DVZiJtm5qDksLeVPUufojgtbV1f3Ku82UNAvB4VtyPPzoqjDikD
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714314528, init_pc_amount: 370000000000, init_coin_amount: 9900000000000000000 }
+INFO:root:i=0
+INFO:root:5QPe2za1Fm8cMLwNRadAQxixVsfns4FykqTm6DVZiJtm5qDksLeVPUufojgtbV1f3Ku82UNAvB4VtyPPzoqjDikD
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714314528, init_pc_amount: 370000000000, init_coin_amount: 9900000000000000000 }
+INFO:root:i=2
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x7f7ecfae7920>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: B5aRzq6vZA9ZpzPALX8nWARwjcE7mzV1Khe3W2Pvr7Xz, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: 4zES7vXbu6ZitrvQr9V1VcaJVim8BP2qJZvUVX4LpJB5
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x7f6698daf760>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: B5aRzq6vZA9ZpzPALX8nWARwjcE7mzV1Khe3W2Pvr7Xz, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: 4zES7vXbu6ZitrvQr9V1VcaJVim8BP2qJZvUVX4LpJB5
+INFO:root:5QPe2za1Fm8cMLwNRadAQxixVsfns4FykqTm6DVZiJtm5qDksLeVPUufojgtbV1f3Ku82UNAvB4VtyPPzoqjDikD
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714314528, init_pc_amount: 370000000000, init_coin_amount: 9900000000000000000 }
+INFO:root:i=1
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+ERROR:root:
+Traceback (most recent call last):
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/exceptions.py", line 43, in argument_decorator
+    return func(*args, **kwargs)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/providers/http.py", line 48, in make_request
+    raw = self.make_request_unparsed(body)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/providers/http.py", line 55, in make_request_unparsed
+    return _after_request_unparsed(raw_response)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/providers/core.py", line 136, in _after_request_unparsed
+    raw_response.raise_for_status()
+  File "/home/codespace/.local/lib/python3.10/site-packages/httpx/_models.py", line 761, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.mainnet-beta.solana.com'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/workspaces/Decentralized-Exchange-Trading-Scripts/Solana/NewlyCreatedPairs.py", line 57, in main
+    get_tokens(signature, RaydiumLPV4)
+  File "/workspaces/Decentralized-Exchange-Trading-Scripts/Solana/NewlyCreatedPairs.py", line 127, in get_tokens
+    transaction = solana_client.get_transaction(
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/api.py", line 372, in get_transaction
+    return self._provider.make_request(body, GetTransactionResp)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/exceptions.py", line 45, in argument_decorator
+    raise internal_exception_cls(exc, func, *args, **kwargs) from exc
+solana.exceptions.SolanaRpcException
+INFO:root:sleep for 5 seconds and try again
+INFO:root:5QPe2za1Fm8cMLwNRadAQxixVsfns4FykqTm6DVZiJtm5qDksLeVPUufojgtbV1f3Ku82UNAvB4VtyPPzoqjDikD
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714314528, init_pc_amount: 370000000000, init_coin_amount: 9900000000000000000 }
+INFO:root:i=3
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+ERROR:root:
+Traceback (most recent call last):
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/exceptions.py", line 43, in argument_decorator
+    return func(*args, **kwargs)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/providers/http.py", line 48, in make_request
+    raw = self.make_request_unparsed(body)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/providers/http.py", line 55, in make_request_unparsed
+    return _after_request_unparsed(raw_response)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/providers/core.py", line 136, in _after_request_unparsed
+    raw_response.raise_for_status()
+  File "/home/codespace/.local/lib/python3.10/site-packages/httpx/_models.py", line 761, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.mainnet-beta.solana.com'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/workspaces/Decentralized-Exchange-Trading-Scripts/Solana/NewlyCreatedPairs.py", line 57, in main
+    get_tokens(signature, RaydiumLPV4)
+  File "/workspaces/Decentralized-Exchange-Trading-Scripts/Solana/NewlyCreatedPairs.py", line 127, in get_tokens
+    transaction = solana_client.get_transaction(
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/api.py", line 372, in get_transaction
+    return self._provider.make_request(body, GetTransactionResp)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/exceptions.py", line 45, in argument_decorator
+    raise internal_exception_cls(exc, func, *args, **kwargs) from exc
+solana.exceptions.SolanaRpcException
+INFO:root:sleep for 5 seconds and try again
+INFO:root:2ArxLE1BnoSkv87TFyJ7Rmxkk5jq6scaaYneM1AvTGddSvhcCnFfj4wJQ2T3qPm2wTHcH2jWnfGZ6wqChgFoQUdS
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714314715, init_pc_amount: 5000000000, init_coin_amount: 100000000000000 }
+INFO:root:i=4
+INFO:root:2ArxLE1BnoSkv87TFyJ7Rmxkk5jq6scaaYneM1AvTGddSvhcCnFfj4wJQ2T3qPm2wTHcH2jWnfGZ6wqChgFoQUdS
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714314715, init_pc_amount: 5000000000, init_coin_amount: 100000000000000 }
+INFO:root:i=2
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x7f7ecf9b7990>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: 8o3hvkppqvMhcNT2TZUk89bZJweYToTxRQNrQ2YJoedH, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: F1FnGpUwnyZwjujGq5J3S87WzbGynRNPh6U6HoK4vZHx
+INFO:root:2n35xFia2aGcWFrfvAdJjFwjn5GAbFJZQHsjdyVipTXcZcrzqaGCn4pgtahVtvS7W2rJ2V4GPFCAJFgsLHA57wEt
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714314715, init_pc_amount: 3000000000, init_coin_amount: 9524808000000 }
+INFO:root:i=3
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x7f6698daf680>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: 8o3hvkppqvMhcNT2TZUk89bZJweYToTxRQNrQ2YJoedH, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: F1FnGpUwnyZwjujGq5J3S87WzbGynRNPh6U6HoK4vZHx
+INFO:root:2n35xFia2aGcWFrfvAdJjFwjn5GAbFJZQHsjdyVipTXcZcrzqaGCn4pgtahVtvS7W2rJ2V4GPFCAJFgsLHA57wEt
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714314715, init_pc_amount: 3000000000, init_coin_amount: 9524808000000 }
+INFO:root:i=5
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+ERROR:root:
+Traceback (most recent call last):
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/exceptions.py", line 43, in argument_decorator
+    return func(*args, **kwargs)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/providers/http.py", line 48, in make_request
+    raw = self.make_request_unparsed(body)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/providers/http.py", line 55, in make_request_unparsed
+    return _after_request_unparsed(raw_response)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/providers/core.py", line 136, in _after_request_unparsed
+    raw_response.raise_for_status()
+  File "/home/codespace/.local/lib/python3.10/site-packages/httpx/_models.py", line 761, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.mainnet-beta.solana.com'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/workspaces/Decentralized-Exchange-Trading-Scripts/Solana/NewlyCreatedPairs.py", line 57, in main
+    get_tokens(signature, RaydiumLPV4)
+  File "/workspaces/Decentralized-Exchange-Trading-Scripts/Solana/NewlyCreatedPairs.py", line 127, in get_tokens
+    transaction = solana_client.get_transaction(
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/api.py", line 372, in get_transaction
+    return self._provider.make_request(body, GetTransactionResp)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/exceptions.py", line 45, in argument_decorator
+    raise internal_exception_cls(exc, func, *args, **kwargs) from exc
+solana.exceptions.SolanaRpcException
+INFO:root:sleep for 5 seconds and try again
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+ERROR:root:
+Traceback (most recent call last):
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/exceptions.py", line 43, in argument_decorator
+    return func(*args, **kwargs)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/providers/http.py", line 48, in make_request
+    raw = self.make_request_unparsed(body)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/providers/http.py", line 55, in make_request_unparsed
+    return _after_request_unparsed(raw_response)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/providers/core.py", line 136, in _after_request_unparsed
+    raw_response.raise_for_status()
+  File "/home/codespace/.local/lib/python3.10/site-packages/httpx/_models.py", line 761, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.mainnet-beta.solana.com'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/workspaces/Decentralized-Exchange-Trading-Scripts/Solana/NewlyCreatedPairs.py", line 57, in main
+    get_tokens(signature, RaydiumLPV4)
+  File "/workspaces/Decentralized-Exchange-Trading-Scripts/Solana/NewlyCreatedPairs.py", line 127, in get_tokens
+    transaction = solana_client.get_transaction(
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/api.py", line 372, in get_transaction
+    return self._provider.make_request(body, GetTransactionResp)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/exceptions.py", line 45, in argument_decorator
+    raise internal_exception_cls(exc, func, *args, **kwargs) from exc
+solana.exceptions.SolanaRpcException
+INFO:root:sleep for 5 seconds and try again
+INFO:root:2ArxLE1BnoSkv87TFyJ7Rmxkk5jq6scaaYneM1AvTGddSvhcCnFfj4wJQ2T3qPm2wTHcH2jWnfGZ6wqChgFoQUdS
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714314715, init_pc_amount: 5000000000, init_coin_amount: 100000000000000 }
+INFO:root:i=4
+INFO:root:2ArxLE1BnoSkv87TFyJ7Rmxkk5jq6scaaYneM1AvTGddSvhcCnFfj4wJQ2T3qPm2wTHcH2jWnfGZ6wqChgFoQUdS
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714314715, init_pc_amount: 5000000000, init_coin_amount: 100000000000000 }
+INFO:root:i=6
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+ERROR:root:
+Traceback (most recent call last):
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/exceptions.py", line 43, in argument_decorator
+    return func(*args, **kwargs)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/providers/http.py", line 48, in make_request
+    raw = self.make_request_unparsed(body)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/providers/http.py", line 55, in make_request_unparsed
+    return _after_request_unparsed(raw_response)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/providers/core.py", line 136, in _after_request_unparsed
+    raw_response.raise_for_status()
+  File "/home/codespace/.local/lib/python3.10/site-packages/httpx/_models.py", line 761, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.mainnet-beta.solana.com'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/workspaces/Decentralized-Exchange-Trading-Scripts/Solana/NewlyCreatedPairs.py", line 57, in main
+    get_tokens(signature, RaydiumLPV4)
+  File "/workspaces/Decentralized-Exchange-Trading-Scripts/Solana/NewlyCreatedPairs.py", line 127, in get_tokens
+    transaction = solana_client.get_transaction(
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/api.py", line 372, in get_transaction
+    return self._provider.make_request(body, GetTransactionResp)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/exceptions.py", line 45, in argument_decorator
+    raise internal_exception_cls(exc, func, *args, **kwargs) from exc
+solana.exceptions.SolanaRpcException
+INFO:root:sleep for 5 seconds and try again
+ERROR:root:
+Traceback (most recent call last):
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/exceptions.py", line 43, in argument_decorator
+    return func(*args, **kwargs)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/providers/http.py", line 48, in make_request
+    raw = self.make_request_unparsed(body)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/providers/http.py", line 55, in make_request_unparsed
+    return _after_request_unparsed(raw_response)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/providers/core.py", line 136, in _after_request_unparsed
+    raw_response.raise_for_status()
+  File "/home/codespace/.local/lib/python3.10/site-packages/httpx/_models.py", line 761, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.mainnet-beta.solana.com'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/workspaces/Decentralized-Exchange-Trading-Scripts/Solana/NewlyCreatedPairs.py", line 57, in main
+    get_tokens(signature, RaydiumLPV4)
+  File "/workspaces/Decentralized-Exchange-Trading-Scripts/Solana/NewlyCreatedPairs.py", line 127, in get_tokens
+    transaction = solana_client.get_transaction(
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/api.py", line 372, in get_transaction
+    return self._provider.make_request(body, GetTransactionResp)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/exceptions.py", line 45, in argument_decorator
+    raise internal_exception_cls(exc, func, *args, **kwargs) from exc
+solana.exceptions.SolanaRpcException
+INFO:root:sleep for 5 seconds and try again
+INFO:root:2n35xFia2aGcWFrfvAdJjFwjn5GAbFJZQHsjdyVipTXcZcrzqaGCn4pgtahVtvS7W2rJ2V4GPFCAJFgsLHA57wEt
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714314715, init_pc_amount: 3000000000, init_coin_amount: 9524808000000 }
+INFO:root:i=7
+INFO:root:2n35xFia2aGcWFrfvAdJjFwjn5GAbFJZQHsjdyVipTXcZcrzqaGCn4pgtahVtvS7W2rJ2V4GPFCAJFgsLHA57wEt
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714314715, init_pc_amount: 3000000000, init_coin_amount: 9524808000000 }
+INFO:root:i=5
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+ERROR:root:
+Traceback (most recent call last):
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/exceptions.py", line 43, in argument_decorator
+    return func(*args, **kwargs)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/providers/http.py", line 48, in make_request
+    raw = self.make_request_unparsed(body)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/providers/http.py", line 55, in make_request_unparsed
+    return _after_request_unparsed(raw_response)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/providers/core.py", line 136, in _after_request_unparsed
+    raw_response.raise_for_status()
+  File "/home/codespace/.local/lib/python3.10/site-packages/httpx/_models.py", line 761, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.mainnet-beta.solana.com'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/workspaces/Decentralized-Exchange-Trading-Scripts/Solana/NewlyCreatedPairs.py", line 57, in main
+    get_tokens(signature, RaydiumLPV4)
+  File "/workspaces/Decentralized-Exchange-Trading-Scripts/Solana/NewlyCreatedPairs.py", line 127, in get_tokens
+    transaction = solana_client.get_transaction(
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/api.py", line 372, in get_transaction
+    return self._provider.make_request(body, GetTransactionResp)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/exceptions.py", line 45, in argument_decorator
+    raise internal_exception_cls(exc, func, *args, **kwargs) from exc
+solana.exceptions.SolanaRpcException
+ERROR:root:
+Traceback (most recent call last):
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/exceptions.py", line 43, in argument_decorator
+    return func(*args, **kwargs)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/providers/http.py", line 48, in make_request
+    raw = self.make_request_unparsed(body)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/providers/http.py", line 55, in make_request_unparsed
+    return _after_request_unparsed(raw_response)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/providers/core.py", line 136, in _after_request_unparsed
+    raw_response.raise_for_status()
+  File "/home/codespace/.local/lib/python3.10/site-packages/httpx/_models.py", line 761, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.mainnet-beta.solana.com'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/workspaces/Decentralized-Exchange-Trading-Scripts/Solana/NewlyCreatedPairs.py", line 57, in main
+    get_tokens(signature, RaydiumLPV4)
+  File "/workspaces/Decentralized-Exchange-Trading-Scripts/Solana/NewlyCreatedPairs.py", line 127, in get_tokens
+    transaction = solana_client.get_transaction(
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/api.py", line 372, in get_transaction
+    return self._provider.make_request(body, GetTransactionResp)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/exceptions.py", line 45, in argument_decorator
+    raise internal_exception_cls(exc, func, *args, **kwargs) from exc
+solana.exceptions.SolanaRpcException
+INFO:root:sleep for 5 seconds and try again
+INFO:root:sleep for 5 seconds and try again
+INFO:root:3jiZaAzjb6LA4Yizb6KQ1AtnzaNxwxpJY9bQkNpnU5n11pbKzdg8aCHcSZdFfLf2B62tzoPkktai2JztcJBwEksy
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714314686, init_pc_amount: 5000000000, init_coin_amount: 45300000000000000 }
+INFO:root:i=8
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x7f6698dafd80>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: D8gnJCacSKTZpP8SdqyhFNijBoeMvhymbKqbuyZ4nn7N, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: 2UzdfudF7pDj6GAH9s7yzEyRsLgcK6fP24axrYixgamZ
+INFO:root:3jiZaAzjb6LA4Yizb6KQ1AtnzaNxwxpJY9bQkNpnU5n11pbKzdg8aCHcSZdFfLf2B62tzoPkktai2JztcJBwEksy
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714314686, init_pc_amount: 5000000000, init_coin_amount: 45300000000000000 }
+INFO:root:i=6
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x7f7ecf9b7a00>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: D8gnJCacSKTZpP8SdqyhFNijBoeMvhymbKqbuyZ4nn7N, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: 2UzdfudF7pDj6GAH9s7yzEyRsLgcK6fP24axrYixgamZ
+INFO:root:3jiZaAzjb6LA4Yizb6KQ1AtnzaNxwxpJY9bQkNpnU5n11pbKzdg8aCHcSZdFfLf2B62tzoPkktai2JztcJBwEksy
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714314686, init_pc_amount: 5000000000, init_coin_amount: 45300000000000000 }
+INFO:root:i=9
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+ERROR:root:
+Traceback (most recent call last):
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/exceptions.py", line 43, in argument_decorator
+    return func(*args, **kwargs)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/providers/http.py", line 48, in make_request
+    raw = self.make_request_unparsed(body)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/providers/http.py", line 55, in make_request_unparsed
+    return _after_request_unparsed(raw_response)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/providers/core.py", line 136, in _after_request_unparsed
+    raw_response.raise_for_status()
+  File "/home/codespace/.local/lib/python3.10/site-packages/httpx/_models.py", line 761, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.mainnet-beta.solana.com'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/workspaces/Decentralized-Exchange-Trading-Scripts/Solana/NewlyCreatedPairs.py", line 57, in main
+    get_tokens(signature, RaydiumLPV4)
+  File "/workspaces/Decentralized-Exchange-Trading-Scripts/Solana/NewlyCreatedPairs.py", line 127, in get_tokens
+    transaction = solana_client.get_transaction(
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/api.py", line 372, in get_transaction
+    return self._provider.make_request(body, GetTransactionResp)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/exceptions.py", line 45, in argument_decorator
+    raise internal_exception_cls(exc, func, *args, **kwargs) from exc
+solana.exceptions.SolanaRpcException
+INFO:root:sleep for 5 seconds and try again
+INFO:root:3jiZaAzjb6LA4Yizb6KQ1AtnzaNxwxpJY9bQkNpnU5n11pbKzdg8aCHcSZdFfLf2B62tzoPkktai2JztcJBwEksy
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714314686, init_pc_amount: 5000000000, init_coin_amount: 45300000000000000 }
+INFO:root:i=7
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+ERROR:root:
+Traceback (most recent call last):
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/exceptions.py", line 43, in argument_decorator
+    return func(*args, **kwargs)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/providers/http.py", line 48, in make_request
+    raw = self.make_request_unparsed(body)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/providers/http.py", line 55, in make_request_unparsed
+    return _after_request_unparsed(raw_response)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/providers/core.py", line 136, in _after_request_unparsed
+    raw_response.raise_for_status()
+  File "/home/codespace/.local/lib/python3.10/site-packages/httpx/_models.py", line 761, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.mainnet-beta.solana.com'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/workspaces/Decentralized-Exchange-Trading-Scripts/Solana/NewlyCreatedPairs.py", line 57, in main
+    get_tokens(signature, RaydiumLPV4)
+  File "/workspaces/Decentralized-Exchange-Trading-Scripts/Solana/NewlyCreatedPairs.py", line 127, in get_tokens
+    transaction = solana_client.get_transaction(
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/api.py", line 372, in get_transaction
+    return self._provider.make_request(body, GetTransactionResp)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/exceptions.py", line 45, in argument_decorator
+    raise internal_exception_cls(exc, func, *args, **kwargs) from exc
+solana.exceptions.SolanaRpcException
+INFO:root:sleep for 5 seconds and try again
+INFO:root:21rLSvnA5JzevD9VtAgD1breVaEu9tp8DPqEtpCvKcWpm5wiZY2tfMNsQ287ppA7wA1BMY435CemUzB9BJPZCEoQ
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714272300, init_pc_amount: 8000000000, init_coin_amount: 90000000000000 }
+INFO:root:i=10
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x7f6698dafed0>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: EzMa27TfdxxfY8cK8DFZshCwGugE87gFAiVH6jYCMxTV, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: 36Pi8Z6b43ySkhdbUzGAQJy9KuLSNux5cKN34Gdc9aGC
+INFO:root:21rLSvnA5JzevD9VtAgD1breVaEu9tp8DPqEtpCvKcWpm5wiZY2tfMNsQ287ppA7wA1BMY435CemUzB9BJPZCEoQ
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714272300, init_pc_amount: 8000000000, init_coin_amount: 90000000000000 }
+INFO:root:i=8
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x7f7ecf9b7d80>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: EzMa27TfdxxfY8cK8DFZshCwGugE87gFAiVH6jYCMxTV, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: 36Pi8Z6b43ySkhdbUzGAQJy9KuLSNux5cKN34Gdc9aGC
+INFO:root:SuJWqFXL4rxQEqxzEi7vQL2u8CPb26JsseVLwBvQ94KcK39y2rAB6kD3b1U8y1dim4iUBLzF5YTB4pfgtCyVZ7s
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714315037, init_pc_amount: 1000000000000, init_coin_amount: 98000000000000000 }
+INFO:root:i=11
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:SuJWqFXL4rxQEqxzEi7vQL2u8CPb26JsseVLwBvQ94KcK39y2rAB6kD3b1U8y1dim4iUBLzF5YTB4pfgtCyVZ7s
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714315037, init_pc_amount: 1000000000000, init_coin_amount: 98000000000000000 }
+INFO:root:i=9
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x7f7ecf9b77d0>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: GaYwhqvuAozsmvUAu4PwdxxUSZYLEC5GYpBoQAnVhtfM, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: CLTCHrPsWptRU8NtiHEhnpiDgUoeZUVVRsQVPS5i18wD
+INFO:root:SuJWqFXL4rxQEqxzEi7vQL2u8CPb26JsseVLwBvQ94KcK39y2rAB6kD3b1U8y1dim4iUBLzF5YTB4pfgtCyVZ7s
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714315037, init_pc_amount: 1000000000000, init_coin_amount: 98000000000000000 }
+INFO:root:i=10
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+ERROR:root:
+Traceback (most recent call last):
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/exceptions.py", line 43, in argument_decorator
+    return func(*args, **kwargs)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/providers/http.py", line 48, in make_request
+    raw = self.make_request_unparsed(body)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/providers/http.py", line 55, in make_request_unparsed
+    return _after_request_unparsed(raw_response)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/providers/core.py", line 136, in _after_request_unparsed
+    raw_response.raise_for_status()
+  File "/home/codespace/.local/lib/python3.10/site-packages/httpx/_models.py", line 761, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.mainnet-beta.solana.com'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/workspaces/Decentralized-Exchange-Trading-Scripts/Solana/NewlyCreatedPairs.py", line 57, in main
+    get_tokens(signature, RaydiumLPV4)
+  File "/workspaces/Decentralized-Exchange-Trading-Scripts/Solana/NewlyCreatedPairs.py", line 127, in get_tokens
+    transaction = solana_client.get_transaction(
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/api.py", line 372, in get_transaction
+    return self._provider.make_request(body, GetTransactionResp)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/exceptions.py", line 45, in argument_decorator
+    raise internal_exception_cls(exc, func, *args, **kwargs) from exc
+solana.exceptions.SolanaRpcException
+INFO:root:sleep for 5 seconds and try again
+INFO:root:3JuoN2sdqmkvXcDDbbpSJknpZovb2aFm4adHPyrxkuuuXJCNEKrL5gh97yAawZJYSunhZCs5xuToWWGKuYWBdgwi
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714315120, init_pc_amount: 10000000000, init_coin_amount: 1000000000000000 }
+INFO:root:i=11
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:websockets.client:= connection is CONNECTING
+DEBUG:websockets.client:> GET / HTTP/1.1
+DEBUG:websockets.client:> Host: api.mainnet-beta.solana.com
+DEBUG:websockets.client:> Upgrade: websocket
+DEBUG:websockets.client:> Connection: Upgrade
+DEBUG:websockets.client:> Sec-WebSocket-Key: xPJ49tn9r69656msRWSnLQ==
+DEBUG:websockets.client:> Sec-WebSocket-Version: 13
+DEBUG:websockets.client:> Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+DEBUG:websockets.client:> User-Agent: Python/3.10 websockets/11.0.3
+DEBUG:websockets.client:< HTTP/1.1 101 Switching Protocols
+DEBUG:websockets.client:< upgrade: websocket
+DEBUG:websockets.client:< connection: Upgrade
+DEBUG:websockets.client:< sec-websocket-accept: jrs9gPCEUs8Sjnk1nHth3odXZGo=
+DEBUG:websockets.client:< x-rpc-node: ams62
+DEBUG:websockets.client:< x-ratelimit-tier: free
+DEBUG:websockets.client:< x-ratelimit-method-limit: 40
+DEBUG:websockets.client:< x-ratelimit-method-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-rps-limit: 100
+DEBUG:websockets.client:< x-ratelimit-rps-remaining: 98
+DEBUG:websockets.client:< x-ratelimit-endpoint-limit: unlimited
+DEBUG:websockets.client:< x-ratelimit-endpoint-remaining: -635
+DEBUG:websockets.client:< x-ratelimit-conn-limit: 40
+DEBUG:websockets.client:< x-ratelimit-conn-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-connrate-limit: 40
+DEBUG:websockets.client:< x-ratelimit-connrate-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-pubsub-limit: 5
+DEBUG:websockets.client:< x-ratelimit-pubsub-remaining: 5
+DEBUG:websockets.client:< access-control-allow-origin: backend_traffic
+DEBUG:websockets.client:< access-control-allow-methods: OPTIONS, POST, GET
+DEBUG:websockets.client:< access-control-allow-headers: authorization, *
+DEBUG:websockets.client:< access-control-max-age: 86400
+DEBUG:websockets.client:< allow: OPTIONS, POST, GET
+DEBUG:websockets.client:= connection is OPEN
+DEBUG:websockets.client:> TEXT '{"method":"logsSubscribe","jsonrpc":"2.0","id":...mitment":"finalized"}]}' [149 bytes]
+DEBUG:websockets.client:< TEXT '{"jsonrpc":"2.0","result":6232870,"id":1}' [41 bytes]
+DEBUG:websockets.client:< TEXT '{"jsonrpc":"2.0","method":"logsNotification","p...subscription":6232870}}' [943 bytes]
+DEBUG:websockets.client:< TEXT '{"jsonrpc":"2.0","method":"logsNotification","p...subscription":6232870}}' [1314 bytes]
+DEBUG:websockets.client:< TEXT '{"jsonrpc":"2.0","method":"logsNotification","p...subscription":6232870}}' [3172 bytes]
+DEBUG:websockets.client:< TEXT '{"jsonrpc":"2.0","method":"logsNotification","p...subscription":6232870}}' [602 bytes]
+DEBUG:websockets.client:< TEXT '{"jsonrpc":"2.0","method":"logsNotification","p...subscription":6232870}}' [3172 bytes]
+DEBUG:websockets.client:< TEXT '{"jsonrpc":"2.0","method":"logsNotification","p...subscription":6232870}}' [3514 bytes]
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:websockets.client:= connection is CONNECTING
+DEBUG:websockets.client:> GET / HTTP/1.1
+DEBUG:websockets.client:> Host: api.mainnet-beta.solana.com
+DEBUG:websockets.client:> Upgrade: websocket
+DEBUG:websockets.client:> Connection: Upgrade
+DEBUG:websockets.client:> Sec-WebSocket-Key: 1O4ZbA5O0Ca1eNaL/K8FUg==
+DEBUG:websockets.client:> Sec-WebSocket-Version: 13
+DEBUG:websockets.client:> Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+DEBUG:websockets.client:> User-Agent: Python/3.10 websockets/11.0.3
+DEBUG:websockets.client:< HTTP/1.1 101 Switching Protocols
+DEBUG:websockets.client:< upgrade: websocket
+DEBUG:websockets.client:< connection: Upgrade
+DEBUG:websockets.client:< sec-websocket-accept: ZYv+/uK9oBM9bhPiTZX2xIxf1o8=
+DEBUG:websockets.client:< x-rpc-node: ams62
+DEBUG:websockets.client:< x-ratelimit-tier: free
+DEBUG:websockets.client:< x-ratelimit-method-limit: 40
+DEBUG:websockets.client:< x-ratelimit-method-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-rps-limit: 100
+DEBUG:websockets.client:< x-ratelimit-rps-remaining: 99
+DEBUG:websockets.client:< x-ratelimit-endpoint-limit: unlimited
+DEBUG:websockets.client:< x-ratelimit-endpoint-remaining: -518
+DEBUG:websockets.client:< x-ratelimit-conn-limit: 40
+DEBUG:websockets.client:< x-ratelimit-conn-remaining: 38
+DEBUG:websockets.client:< x-ratelimit-connrate-limit: 40
+DEBUG:websockets.client:< x-ratelimit-connrate-remaining: 38
+DEBUG:websockets.client:< x-ratelimit-pubsub-limit: 5
+DEBUG:websockets.client:< x-ratelimit-pubsub-remaining: 4
+DEBUG:websockets.client:< access-control-allow-origin: backend_traffic
+DEBUG:websockets.client:< access-control-allow-methods: OPTIONS, POST, GET
+DEBUG:websockets.client:< access-control-allow-headers: authorization, *
+DEBUG:websockets.client:< access-control-max-age: 86400
+DEBUG:websockets.client:< allow: OPTIONS, POST, GET
+DEBUG:websockets.client:= connection is OPEN
+DEBUG:websockets.client:> TEXT '{"method":"logsSubscribe","jsonrpc":"2.0","id":...mitment":"finalized"}]}' [149 bytes]
+DEBUG:websockets.client:< TEXT '{"jsonrpc":"2.0","result":2139762,"id":1}' [41 bytes]
+INFO:root:29X1XCpzZFs7khoLCacGWccpvxpjaepbYJsJF2Tb6Kn4opr2w8g2pyq79vd5MCBMviVRp62ixmRvzABaJNtNEkJk
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714315147, init_pc_amount: 320000000000, init_coin_amount: 40000000000000 }
+INFO:root:i=0
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:29X1XCpzZFs7khoLCacGWccpvxpjaepbYJsJF2Tb6Kn4opr2w8g2pyq79vd5MCBMviVRp62ixmRvzABaJNtNEkJk
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714315147, init_pc_amount: 320000000000, init_coin_amount: 40000000000000 }
+INFO:root:i=0
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x7fdb61397ca0>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: 6jeTMXXhAhvvrsDCm9is5tNAZKrsiwiy5sjy6FS3QgSr, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: EcLmEa17W3Qn8in6re7AH6pS6igArhJEApBky9sEw2z2
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:websockets.client:= connection is CONNECTING
+DEBUG:websockets.client:> GET / HTTP/1.1
+DEBUG:websockets.client:> Host: api.mainnet-beta.solana.com
+DEBUG:websockets.client:> Upgrade: websocket
+DEBUG:websockets.client:> Connection: Upgrade
+DEBUG:websockets.client:> Sec-WebSocket-Key: xf3GcigjK0VEpECHBG3Ehw==
+DEBUG:websockets.client:> Sec-WebSocket-Version: 13
+DEBUG:websockets.client:> Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+DEBUG:websockets.client:> User-Agent: Python/3.10 websockets/11.0.3
+DEBUG:websockets.client:< HTTP/1.1 101 Switching Protocols
+DEBUG:websockets.client:< upgrade: websocket
+DEBUG:websockets.client:< connection: Upgrade
+DEBUG:websockets.client:< sec-websocket-accept: wgbRtxYFHUIZhyKKg+obPTmjTns=
+DEBUG:websockets.client:< x-rpc-node: ams62
+DEBUG:websockets.client:< x-ratelimit-tier: free
+DEBUG:websockets.client:< x-ratelimit-method-limit: 40
+DEBUG:websockets.client:< x-ratelimit-method-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-rps-limit: 100
+DEBUG:websockets.client:< x-ratelimit-rps-remaining: 99
+DEBUG:websockets.client:< x-ratelimit-endpoint-limit: unlimited
+DEBUG:websockets.client:< x-ratelimit-endpoint-remaining: -504
+DEBUG:websockets.client:< x-ratelimit-conn-limit: 40
+DEBUG:websockets.client:< x-ratelimit-conn-remaining: 38
+DEBUG:websockets.client:< x-ratelimit-connrate-limit: 40
+DEBUG:websockets.client:< x-ratelimit-connrate-remaining: 38
+DEBUG:websockets.client:< x-ratelimit-pubsub-limit: 5
+DEBUG:websockets.client:< x-ratelimit-pubsub-remaining: 4
+DEBUG:websockets.client:< access-control-allow-origin: backend_traffic
+DEBUG:websockets.client:< access-control-allow-methods: OPTIONS, POST, GET
+DEBUG:websockets.client:< access-control-allow-headers: authorization, *
+DEBUG:websockets.client:< access-control-max-age: 86400
+DEBUG:websockets.client:< allow: OPTIONS, POST, GET
+DEBUG:websockets.client:= connection is OPEN
+DEBUG:websockets.client:> TEXT '{"method":"logsSubscribe","jsonrpc":"2.0","id":...mitment":"finalized"}]}' [149 bytes]
+DEBUG:websockets.client:< TEXT '{"jsonrpc":"2.0","result":6232870,"id":1}' [41 bytes]
+INFO:root:2Q1dQfYUp7GijeSP9u4UPEE8JbMsug6zWVyE7ftRCoDnuaWTMLqpdNcRWgaM1Ejqj7LugJ1oPLyu87uNwZQLxYoL
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714315249, init_pc_amount: 5000000000, init_coin_amount: 850000000000000000 }
+INFO:root:i=0
+INFO:root:2Q1dQfYUp7GijeSP9u4UPEE8JbMsug6zWVyE7ftRCoDnuaWTMLqpdNcRWgaM1Ejqj7LugJ1oPLyu87uNwZQLxYoL
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714315249, init_pc_amount: 5000000000, init_coin_amount: 850000000000000000 }
+INFO:root:i=1
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x7fdb61397b50>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: FJhKAxEi5UNzG2WmqRyboerpT1voxsFSn8sHaNjnNSkK, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: 7M4grpnbTpCxoisPcrNKcNLDGVWSNuMmKJSZkqgd8hAq
+INFO:root:2Q1dQfYUp7GijeSP9u4UPEE8JbMsug6zWVyE7ftRCoDnuaWTMLqpdNcRWgaM1Ejqj7LugJ1oPLyu87uNwZQLxYoL
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714315249, init_pc_amount: 5000000000, init_coin_amount: 850000000000000000 }
+INFO:root:i=2
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+ERROR:root:
+Traceback (most recent call last):
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/exceptions.py", line 43, in argument_decorator
+    return func(*args, **kwargs)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/providers/http.py", line 48, in make_request
+    raw = self.make_request_unparsed(body)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/providers/http.py", line 55, in make_request_unparsed
+    return _after_request_unparsed(raw_response)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/providers/core.py", line 136, in _after_request_unparsed
+    raw_response.raise_for_status()
+  File "/home/codespace/.local/lib/python3.10/site-packages/httpx/_models.py", line 761, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.mainnet-beta.solana.com'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/workspaces/Decentralized-Exchange-Trading-Scripts/Solana/NewlyCreatedPairs.py", line 57, in main
+    get_tokens(signature, RaydiumLPV4)
+  File "/workspaces/Decentralized-Exchange-Trading-Scripts/Solana/NewlyCreatedPairs.py", line 127, in get_tokens
+    transaction = solana_client.get_transaction(
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/rpc/api.py", line 372, in get_transaction
+    return self._provider.make_request(body, GetTransactionResp)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/solana/exceptions.py", line 45, in argument_decorator
+    raise internal_exception_cls(exc, func, *args, **kwargs) from exc
+solana.exceptions.SolanaRpcException
+INFO:root:sleep for 5 seconds and try again
+INFO:root:2xH2nkXSiif1uCVmNznXJReTJjSqzzUBPYcpdeXLv4G87CRhRdtFjDmG99VKbmBny67xFNXMGQ4pDAwiD8RPGpqD
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714315336, init_pc_amount: 440000000000, init_coin_amount: 3600000000000000000 }
+INFO:root:i=3
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x7fdb6126ba70>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: 8xj5ccZLuBenoT9Qk9y9m5xXAGfT6UZ4KjUwBEEu1pVm, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: 4LFJwPYQJr7EH4cuEdkd4oKc2dppXJrbxv5gzn9pDiZK
+INFO:root:2xH2nkXSiif1uCVmNznXJReTJjSqzzUBPYcpdeXLv4G87CRhRdtFjDmG99VKbmBny67xFNXMGQ4pDAwiD8RPGpqD
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714315336, init_pc_amount: 440000000000, init_coin_amount: 3600000000000000000 }
+INFO:root:i=4
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x7fdb6126b840>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: 8xj5ccZLuBenoT9Qk9y9m5xXAGfT6UZ4KjUwBEEu1pVm, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: 4LFJwPYQJr7EH4cuEdkd4oKc2dppXJrbxv5gzn9pDiZK
+INFO:root:2PAfUFFu9qiLNHtMt7oUmKfTZdceiL3a8ToJDrPsVVzTC2YHkgkVk8o9oyNuiFgChmyV5fUwc5ivv4nuFQyxEMqV
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714315427, init_pc_amount: 5000000000, init_coin_amount: 100000000000000000 }
+INFO:root:i=5
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:websockets.client:= connection is CONNECTING
+DEBUG:websockets.client:> GET / HTTP/1.1
+DEBUG:websockets.client:> Host: api.mainnet-beta.solana.com
+DEBUG:websockets.client:> Upgrade: websocket
+DEBUG:websockets.client:> Connection: Upgrade
+DEBUG:websockets.client:> Sec-WebSocket-Key: V8tfBp7FuD1Lgc47T3OBIw==
+DEBUG:websockets.client:> Sec-WebSocket-Version: 13
+DEBUG:websockets.client:> Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+DEBUG:websockets.client:> User-Agent: Python/3.10 websockets/11.0.3
+DEBUG:websockets.client:< HTTP/1.1 101 Switching Protocols
+DEBUG:websockets.client:< upgrade: websocket
+DEBUG:websockets.client:< connection: Upgrade
+DEBUG:websockets.client:< sec-websocket-accept: +CimSmFdY7BYtHqu8pC9re6DlEs=
+DEBUG:websockets.client:< x-rpc-node: ams62
+DEBUG:websockets.client:< x-ratelimit-tier: free
+DEBUG:websockets.client:< x-ratelimit-method-limit: 40
+DEBUG:websockets.client:< x-ratelimit-method-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-rps-limit: 100
+DEBUG:websockets.client:< x-ratelimit-rps-remaining: 99
+DEBUG:websockets.client:< x-ratelimit-endpoint-limit: unlimited
+DEBUG:websockets.client:< x-ratelimit-endpoint-remaining: -619
+DEBUG:websockets.client:< x-ratelimit-conn-limit: 40
+DEBUG:websockets.client:< x-ratelimit-conn-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-connrate-limit: 40
+DEBUG:websockets.client:< x-ratelimit-connrate-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-pubsub-limit: 5
+DEBUG:websockets.client:< x-ratelimit-pubsub-remaining: 5
+DEBUG:websockets.client:< access-control-allow-origin: backend_traffic
+DEBUG:websockets.client:< access-control-allow-methods: OPTIONS, POST, GET
+DEBUG:websockets.client:< access-control-allow-headers: authorization, *
+DEBUG:websockets.client:< access-control-max-age: 86400
+DEBUG:websockets.client:< allow: OPTIONS, POST, GET
+DEBUG:websockets.client:= connection is OPEN
+DEBUG:websockets.client:> TEXT '{"method":"logsSubscribe","jsonrpc":"2.0","id":...mitment":"finalized"}]}' [149 bytes]
+DEBUG:websockets.client:< TEXT '{"jsonrpc":"2.0","result":2139762,"id":1}' [41 bytes]
+INFO:root:3kNW3YZYCdH7go9SNbAMzMLkvxhcWWzbGH7pPAwa6Mh1v19ebsWQdyTyg2Gm8FTk43VYnu7bygoaSHm3imVLyXgD
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714315565, init_pc_amount: 8000000000, init_coin_amount: 100000000000000000 }
+INFO:root:i=0
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x7f3799163990>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: DmxiQJsg3kE8Cievi56MBvUYaPJNjPT4jCz5LdoXh1os, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: G2BDMQGhGeauwSeZg45Puvf7ZVS6LeHton8S7XLzv4Y
+INFO:root:3kNW3YZYCdH7go9SNbAMzMLkvxhcWWzbGH7pPAwa6Mh1v19ebsWQdyTyg2Gm8FTk43VYnu7bygoaSHm3imVLyXgD
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714315565, init_pc_amount: 8000000000, init_coin_amount: 100000000000000000 }
+INFO:root:i=1
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x7f3799163920>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: DmxiQJsg3kE8Cievi56MBvUYaPJNjPT4jCz5LdoXh1os, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: G2BDMQGhGeauwSeZg45Puvf7ZVS6LeHton8S7XLzv4Y
+INFO:root:4HG3RWMnRqq2cqDrhV2ajVs2LDR6KvbzugEG92TPivuXZ1A7CaHYViC2AmAtzATpEkep5DRwr7fcnad9pUYa54L5
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714316352, init_pc_amount: 25000000000, init_coin_amount: 10000000000000000 }
+INFO:root:i=2
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x7f3799163d10>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: DHjuboHPNDEiemqU1qXqySj6mLHfHHxWSx7Zd4p5Sx9Z, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: 8QNaG7CGig2vdjNgJ5gZbyQYAD7e7K7W3YdSDDGK1WoG
+INFO:root:hfnJ8QFEfeYu6t1DHEkxXqCYaKntDrhYQkat3ssTEoJymAbgbS3iQxEofNELkrDwRSDJbuRwRgMNmHtzut87mqt
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714317600, init_pc_amount: 32000000000, init_coin_amount: 200000000000000 }
+INFO:root:i=3
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x7f3799163df0>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: Ah4wsQEPgDKUW97xxWQpx27PYHA2qqQXZPKfX2J5oSgq, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: 3G7Fqb6SDerkrUtVA2Jgswmbxyastp7CqjZuyjyxnZHf
+INFO:root:4FdSPpjBicRKp7iwToYwQRvhVvJPNVXaQRx48v9f6itg1c5DRVhcbfycfehP1JpXpv4pvD332QnuXeDjXheJzNqb
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714315822, init_pc_amount: 79000000000, init_coin_amount: 1000000000000000000 }
+INFO:root:i=4
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x7f3799163ca0>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: BzsD42aMtNx3rTxexFLjKc2g4bGR1dLFwZKgB7BzubcQ, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: ACVCtB7pM3Tkmbg8kr8EaJVcVA174ncckh4HwsyvT9FG
+INFO:root:4FdSPpjBicRKp7iwToYwQRvhVvJPNVXaQRx48v9f6itg1c5DRVhcbfycfehP1JpXpv4pvD332QnuXeDjXheJzNqb
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714315822, init_pc_amount: 79000000000, init_coin_amount: 1000000000000000000 }
+INFO:root:i=5
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x7f3799162880>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: BzsD42aMtNx3rTxexFLjKc2g4bGR1dLFwZKgB7BzubcQ, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: ACVCtB7pM3Tkmbg8kr8EaJVcVA174ncckh4HwsyvT9FG
+INFO:root:5g233gky4ZqDdtVErto4xx6iLPrCdGzMsULN57fxQ5th8Ra1HCqCsRyu76gD3jq8XtiAd9p3j8wuhfk7AQMqaEwF
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714315858, init_pc_amount: 5000000000, init_coin_amount: 700000000000000000 }
+INFO:root:i=6
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x7f3799163f40>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: 8MSZXPfimZpZnJYLjS6XiMcqR9ANmxG35jED1xXVtwfp, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: 6Eh5oKS7gvbcTXzySoargMKx5gZvpRBQLZec9EivtH1D
+INFO:root:39AgiEktoJGucX8XeUBqXfRVyxUWJV5shWjqDBc1Jqr5zUU8MRLxHee5qXCKno9gijeDPD2AS5Vi5NRB1MoEJMXq
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714315966, init_pc_amount: 5000000000, init_coin_amount: 813600000000000 }
+INFO:root:i=7
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x7f3799163ae0>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: Ag4FvAKRGTPY7pFxLdVQKjhPkCP1Jas6YUWXqsE6YFP7, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: GqExabhLvEmU3iQM3d6ie9MhBMrzXe2Gb8xygoZw1m2z
